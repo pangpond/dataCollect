@@ -1,0 +1,26 @@
+{
+    "name": "nextgensoft/datacollect",
+    "license": "Apache License Version 2.0",
+    "authors": [
+        {
+            "name": "Nextgensoft",
+            "email": "info@nextgensoft.co.th",
+            "homepage": "http://www.nextgensoft.co.th/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "slim/slim": "^3.12",
+        "slim/php-view": "^2.2",
+        "monolog/monolog": "^1.24",
+        "phpunit/phpunit": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "nextgensoft\\": "src/"
+        }
+    }
+}
